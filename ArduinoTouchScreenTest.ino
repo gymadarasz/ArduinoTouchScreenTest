@@ -44,6 +44,7 @@ void setup()
 
 void loop()
 {
+	Serial.println(ARDUINO);
 	// a point object holds x y and z coordinates
 	TSPoint p = ts.getPoint();
 
